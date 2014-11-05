@@ -1,12 +1,10 @@
 object frmPrincipal: TfrmPrincipal
-  Left = 192
-  Top = 124
-  Align = alClient
-  BorderIcons = [biSystemMenu, biMinimize]
-  BorderStyle = bsDialog
+  Left = 227
+  Top = 168
+  Width = 928
+  Height = 481
+  BorderStyle = bsSingle
   Caption = 'SysPonto - Controle de Ponto'
-  ClientHeight = 422
-  ClientWidth = 912
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -306,7 +304,6 @@ object frmPrincipal: TfrmPrincipal
     C07FFFFFF807FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
   Menu = menuPrincipal
   OldCreateOrder = False
-  Position = poScreenCenter
   WindowState = wsMaximized
   PixelsPerInch = 96
   TextHeight = 13
@@ -315,11 +312,7 @@ object frmPrincipal: TfrmPrincipal
     Top = 403
     Width = 912
     Height = 19
-    Panels = <
-      item
-        Text = ' Produzido por Gorky Vel'#225'squez'
-        Width = 50
-      end>
+    Panels = <>
     SimplePanel = False
   end
   object menuPrincipal: TMainMenu
