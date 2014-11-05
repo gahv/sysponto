@@ -4,10 +4,28 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs;
+  Dialogs, Menus, ImgList, ComCtrls;
 
 type
-  TForm1 = class(TForm)
+  TfrmPrincipal = class(TForm)
+    menuPrincipal: TMainMenu;
+    mniArquivo: TMenuItem;
+    mniNovo: TMenuItem;
+    N1: TMenuItem;
+    mniSair: TMenuItem;
+    mniFuncionario: TMenuItem;
+    mniPonto: TMenuItem;
+    mniFeriado: TMenuItem;
+    mniFerramentas: TMenuItem;
+    mniConfig: TMenuItem;
+    mniJanela: TMenuItem;
+    mniCascata: TMenuItem;
+    mniHorizontal: TMenuItem;
+    mniVertical: TMenuItem;
+    mniAjuda: TMenuItem;
+    mniSobre: TMenuItem;
+    imgLista: TImageList;
+    status: TStatusBar;
   private
     { Private declarations }
   public
@@ -15,7 +33,7 @@ type
   end;
 
 var
-  Form1: TForm1;
+  frmPrincipal: TfrmPrincipal;
 
 implementation
 
